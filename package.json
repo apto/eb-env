@@ -1,0 +1,39 @@
+{
+  "name": "eb-env",
+  "version": "0.0.0",
+  "description": "Add config files to your elastic beanstalk project to seed environment information. Use module to get environment info in your app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/*.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/apto/eb-env.git"
+  },
+  "keywords": [
+    "elastic",
+    "beanstalk",
+    "environment"
+  ],
+  "author": "Justin Deal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apto/eb-env/issues"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "js-yaml": "~2.1.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.0",
+    "chai": "~1.8.1",
+    "ncp": "~0.4.2",
+    "rimraf": "~2.2.4",
+    "mocha-as-promised": "~1.4.1",
+    "chai-as-promised": "~4.1.0",
+    "shelljs": "~0.2.6"
+  },
+  "bin": {
+    "eb-env": "bin/eb-env"
+  }
+}
