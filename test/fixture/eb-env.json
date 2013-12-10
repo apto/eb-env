@@ -1,0 +1,4 @@
+{
+  "AWSEBEnvironmentName": "my-sample-env",
+  "AppSource": "https://elasticbeanstalk-us-east-1-204320512223.s3.amazonaws.com/resources%2Fenvironments%2Fe-bpnbdc2qm2%2F_runtime%2F_versions%2Fmy-app%2Fgit-a30d69b7a9609b10bf1a76111c520eac2d27c6b4-1386360205818?Expires=1417896215&AWSAccessKeyId=AKIAOOOOOOOOOOOOOOOO&Signature=HrPumk9LHijxj3xTSDWZyh5A7R8%3D"
+}

@@ -30,25 +30,33 @@ can consume it.
 ### Use module
 
 ```js
-var eb = require('eb-env');
+var ebEnv = require('eb-env');
 
-var envName = eb.env.name;
+var envName = ebEnv.name;
+```
+
+By default, the environment info is loaded from the temp file mentioned above
+and copied into a file in the module directory (in case the temp file goes
+away). Alternatively, you can load from a different file:
+
+```js
+var ebEnv = require('eb-env');
+
+ebEnv.load('/my/eb-env.json');
+
+var envName = ebEnv.name;
 ```
 
 ## Available environment info
 
-### env.name
+### name
 
 The full name of your elastic beanstalk environment.
 
-### env.autoScalingGroup
-
-The auto-scaling group to which this instance belongs.
-
-### app.source
+### app.sourceUrl
 
 The URL where the source of your app was retrieved.
 
-### app.commit
+### app.sourceId
 
 The commit ID of the deployed version of your app.
