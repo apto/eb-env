@@ -1,6 +1,6 @@
 {
   "name": "eb-env",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Add config files to your elastic beanstalk project to seed environment information. Use module to get environment info in your app.",
   "main": "index.js",
   "scripts": {
